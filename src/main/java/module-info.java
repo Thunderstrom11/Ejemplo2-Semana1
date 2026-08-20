@@ -5,4 +5,8 @@ module ni.edu.ni.ejemplo3 {
 
     opens ni.edu.ni.ejemplo3 to javafx.fxml;
     exports ni.edu.ni.ejemplo3;
+
+    opens ni.edu.ni.ejemplo4 to javafx.fxml;
+    exports ni.edu.ni.ejemplo4;
+
 }
